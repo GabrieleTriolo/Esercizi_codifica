@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radice>
+    <elemento><test></elemento></test>
+</radice>
+
+<!-- Errore 
+[Fatal Error] es2.xml:3:23: The element type "test" must be terminated by the matching end-tag "</test>".
+-->
+
+<!-- Correzione
+    <radice>
+        <elemento><test></test></elemento>
+    </radice>
+-->
